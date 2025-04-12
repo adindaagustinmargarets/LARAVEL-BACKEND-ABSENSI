@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 class AbsensiController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
         $tokenKey = $request->header('Authorization');
 
